@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.hero{
+  color: blue;
+  background-image:url(../img/my.jpg) ;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top:40px ;
+  padding-left: 30px;
+  padding-right: 30px ;
+  margin: 2px;
+}
+.logo{
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 6px;
+
+
+}
+span{
+color: #f9004d;
+}
+nav ul li{
+  list-style-type: none;
+  display:inline-block;
+  padding: 10px 25px;
+}
+nav ul li a{
+  color: white;
+ font-weight: bold;
+ text-transform: capitalize;
+text-decoration: none;
+}
+nav ul li a:hover{
+  color:#f9004d;
+  transition:.4s;
+}
+.btn{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 8px 18px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  font-family: poppins;
+  transition:trnasform.4s;
+  margin-bottom: 6px;
+
+}
+.btn:hover{
+transform:scale(1.2)
+}
+.content{
+  position: absolute;
+  top:40% ;
+  left: 8%;
+}
+h1{
+  color: white;
+  font-size: 60px;
+  margin: 15px 0px 15px;
+}
+h3{
+  color:white ;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+h4{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.about{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.about img{
+  height: auto;
+  width: 400px;
+  border-radius: 20px;
+}
+.about-text{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+
+}
+.about-text h2{
+  color: white;
+  font-size: 60px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5{
+  color: white;
+  margin-bottom: 30px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.about-text p{
+  color: white;
+  margin-bottom: 45px;
+  font-size: 18px;
+
+}
+button{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 13px 30px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  font-family: poppins;
+  transition:trnasform.4s;
+}
+button:hover{
+  background-color:transparent ;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
